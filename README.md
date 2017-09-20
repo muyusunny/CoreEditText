@@ -14,6 +14,11 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 * 系统信息
 * 系统沙盒
 * 文件操作
+* bug收集
+* MD5,SHA1加密解密
+* iOS动画合成
+* 多线程操作
+* 获取系统信息
 * …
 
 # 版本文件说明
@@ -24,7 +29,7 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 * iphones                                       (单真机framework版本)
 * iphonesimulator                               (单模拟器framework版本)
-* universal                                     (包含真机跟模拟器framework版本,【常用】)
+* universal                                     (包含真机和模拟器framework版本,【常用】)
 
 * * *
 
@@ -39,7 +44,7 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 * * *
 
-* universal/CoreEditText.framework              (包含真机跟模拟器framework版本,【常用】)
+* universal/CoreEditText.framework              (包含真机和模拟器framework版本,【常用】)
 
 * * *
 
@@ -48,6 +53,33 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 # 使用方法
 
 使用简单快捷，仅需要把【CoreEditText.framework】库文件拖入项目中，在项目pch文件中引入即可。
+
 ## 引入方式如下
 
 ```#import <CoreEditText/CoreEditText.h>```
+
+### 项目中使用Demo
+
+```
+
+NSLog (@"*********************************************************");
+NSLog (@"**    当前App的版本号            :%@ ",SUNNUMBER_FLOAT_TO_NUMB_2(SUNBSystemAppVersion));
+NSLog (@"**    当前系统版本               :%@ ",SUNNUMBER_FLOAT_TO_NUMB_2(SUNBSystemVersion));
+NSLog (@"**    当前App的bundleIdentifier :%@",SUNBSystemAppBundleIdentifier);
+NSLog (@"**    当前屏幕大小               :%@ * %@ ",SUNNUMBER_FLOAT_TO_NUMB_2(SUNBSystemScreenWidth),SUNNUMBER_FLOAT_TO_NUMB_2(SUNBSystemScreenHeight));
+NSLog (@"*********************************************************\n");
+
+```
+
+输出信息
+
+```
+
+*********************************************************
+**    当前App的版本号            :1.1 
+**    当前系统版本               :10.3 
+**    当前App的bundleIdentifier :com.sunny.CoreEditText
+**    当前屏幕大小               :375 * 667 
+*********************************************************
+
+```
