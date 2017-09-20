@@ -19,7 +19,7 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 * iOS动画合成
 * 多线程操作
 * 获取系统信息
-* …
+* 还有很多很多惊喜,等待你来发现…
 
 # 版本文件说明
 
@@ -58,7 +58,7 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 ```#import <CoreEditText/CoreEditText.h>```
 
-### 项目中使用Demo
+### 项目中使用 e.g.1
 
 ```
 
@@ -74,12 +74,32 @@ NSLog (@"*********************************************************\n");
 输出信息
 
 ```
-
 *********************************************************
 **    当前App的版本号            :1.1 
 **    当前系统版本               :10.3 
 **    当前App的bundleIdentifier :com.sunny.CoreEditText
 **    当前屏幕大小               :375 * 667 
 *********************************************************
+
+```
+
+* * *
+
+### 汉字转换为汉语拼音 e.g.2
+
+```
+    NSArray *wordArr = [NSArray arrayWithObjects:@"你好",@"我的",@"程序",@"北京", nil];
+    for (int i = 0; i < wordArr.count; i++) {
+    NSLog(@"%@的拼音是：%@",[wordArr objectAtIndex:i],[SUNGetPinYinFormString([wordArr objectAtIndex:i])]);
+
+    }
+
+
+输出信息
+
+你好的拼音是：ni hao
+我的的拼音是：wo de
+程序的拼音是：cheng xu
+北京的拼音是：bei jing
 
 ```
