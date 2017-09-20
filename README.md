@@ -22,4 +22,4 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 使用简单快捷，仅需要把【CoreEditText.framework】库文件拖入项目中，在项目pch文件中引入即可。
 
-'''#import <CoreEditText/CoreEditText.h>'''
+```#import <CoreEditText/CoreEditText.h>```
