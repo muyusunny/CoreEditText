@@ -22,24 +22,24 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 ## 文件目录说明
 
-* * *
-
-* iphones (单真机framework版本)
-* iphonesimulator (单模拟器framework版本)
-* universal (包含真机跟模拟器framework版本，【常用】)
+* iphones                                       (单真机framework版本)
+* iphonesimulator                               (单模拟器framework版本)
+* universal                                     (包含真机跟模拟器framework版本,【常用】)
 
 * * *
 
-* iphones/CoreEditText.framework (单真机[arm64,armv7]framework版本)
-* iphones/arm64/CoreEditText.framework(单真机[arm64]framework版本)
-* iphones/armv7/CoreEditText.framework(单真机[armv7]framework版本)
+* iphones/CoreEditText.framework                (单真机【arm64,armv7】framework版本)
+* iphones/arm64/CoreEditText.framework          (单真机【arm64】framework版本)
+* iphones/armv7/CoreEditText.framework          (单真机【armv7】framework版本)
 
 * * *
 
-* iphonesimulator/i386/CoreEditText.framework (单模拟器[i386]framework版本)
-* iphonesimulator/x86_64/CoreEditText.framework (单模拟器[x86_64]framework版本)
+* iphonesimulator/i386/CoreEditText.framework   (单模拟器【i386】framework版本)
+* iphonesimulator/x86_64/CoreEditText.framework (单模拟器【x86_64】framework版本)
+
 * * *
-* universal/CoreEditText.framework (包含真机跟模拟器framework版本，【常用】)
+
+* universal/CoreEditText.framework              (包含真机跟模拟器framework版本,【常用】)
 
 * * *
 
