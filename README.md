@@ -58,7 +58,7 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
 
 ```#import <CoreEditText/CoreEditText.h>```
 
-### 项目中使用 e.g.1
+1. 项目中使用 e.g.1
 
 ```
 
@@ -85,21 +85,35 @@ NSLog (@"*********************************************************\n");
 
 * * *
 
-### 汉字转换为汉语拼音 e.g.2
+2. 汉字转换为汉语拼音 e.g.2
 
 ```
-    NSArray *wordArr = [NSArray arrayWithObjects:@"你好",@"我的",@"程序",@"北京", nil];
-    for (int i = 0; i < wordArr.count; i++) {
+NSArray *wordArr = [NSArray arrayWithObjects:@"你好",@"我的",@"程序",@"北京", nil];
+for (int i = 0; i < wordArr.count; i++) {
     NSLog(@"%@的拼音是：%@",[wordArr objectAtIndex:i],[SUNGetPinYinFormString([wordArr objectAtIndex:i])]);
 
-    }
+}
 
 
-输出信息
+输出信息：
 
 你好的拼音是：ni hao
 我的的拼音是：wo de
 程序的拼音是：cheng xu
 北京的拼音是：bei jing
+
+```
+
+* * *
+
+3. 线程操作 e.g.3
+
+```
+
+//主线程延迟second秒异步执行block
+
+SUNBAsyncMainQueueDelay(5,^{
+    NSLog(@"我延迟了5秒执行");
+});
 
 ```
