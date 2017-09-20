@@ -1,0 +1,6 @@
+framework module CoreEditText {
+  umbrella header "CoreEditText.h"
+
+  export *
+  module * { export * }
+}
