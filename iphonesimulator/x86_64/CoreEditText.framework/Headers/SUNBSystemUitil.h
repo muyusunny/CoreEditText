@@ -11,21 +11,21 @@
 #import <CoreGraphics/CoreGraphics.h>
 @interface SUNBSystemUitil : NSObject
 
-/** 获取占用内存*/
-+ (NSString *)usedSpaceAndfreeSpace;
++ (NSString *)usedSpaceAndfreeSpace; /** 获取占用内存*/
 
 + (NSString *)appName;
 
-//手机型号
-+ (NSString *)phoneModel;
++ (NSString *)phoneModel;           //手机型号
 
-//设备名称
-+ (NSString *)deviceName;
++ (NSString *)deviceName;           //设备名称
 
-//手机的具体型号
-+ (NSString*)deviceString;
++ (NSString *)deviceUserName;       //设备用户名称
+
++ (NSString*)deviceString;          //手机的具体型号
 
 + (CGFloat)appVersion;
+
++ (NSString *)appBundleVersion;
 
 + (CGFloat)appFloatVersion;
 
@@ -92,11 +92,11 @@
 /**
  *  获取屏幕Y轴起始点
  */
-+(double)getSelfViewFrameOrangeY;
++ (double)getSelfViewFrameOrangeY;
 
 /**
  *  系统是否 >=7.0 <7.1
  */
-+(BOOL)isSystemVersionIs7;
++ (BOOL)isSystemVersionIs7;
 
 @end

@@ -50,6 +50,16 @@
  */
 #define SunCharToData(CharString)         [SUNBStringUitil charToData:CharString]
 
+
+/**
+ string字符串中是否包含特定字符
+
+ @param string 字符串
+ @param words 字符
+ @return yes包含，no不包含
+ */
+#define SunStringContainWords(string,word) [SUNBStringUitil stringContainWords:string words:word]
+
 /**
  *  字符串是否为空
  */

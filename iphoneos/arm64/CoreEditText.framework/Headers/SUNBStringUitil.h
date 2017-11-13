@@ -84,6 +84,8 @@
 // base64 解密
 + (NSData *)base64DecodingWithString:(NSString *)string;
 
++ (BOOL)stringContainWords:(NSString *)string words:(NSString *)words;
+
 //SHA1加密方式
 + (NSString *)sha1WithString:(NSString *)sourceString;
 

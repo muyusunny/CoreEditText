@@ -54,9 +54,20 @@ _Pragma("clang diagnostic pop")                                         \
 #define SUNBSystemDeviceName [SUNBSystemUitil deviceName]
 
 /**
+ *  设备用户名称
+ */
+#define SUNBSystemDeviceUserName [SUNBSystemUitil deviceUserName]
+
+
+/**
  *  当前App的版本号
  */
 #define SUNBSystemAppVersion [SUNBSystemUitil appVersion]
+
+/**
+ *  当前App的Bundel版本号
+ */
+#define SUNBSystemAppBundleVersion [SUNBSystemUitil appBundleVersion]
 
 /**
  *  当前App的版本号 float型
