@@ -80,10 +80,6 @@
 		<data>
 		lXPjevyjTTESD0eH+S4P6Wo+YGY=
 		</data>
-		<key>Headers/SUNNetworkTool.h</key>
-		<data>
-		x6di/cF6qS6OlTP01KTV3CVOHKo=
-		</data>
 		<key>Headers/SunDebugs.h</key>
 		<data>
 		90w6wolc3ujYvWyz4U8JrApfTgY=
@@ -310,17 +306,6 @@
 			<key>hash2</key>
 			<data>
 			7dEVaGExObuZWYQrTDQtxLtB8xAg33BuTr68EuLWO+c=
-			</data>
-		</dict>
-		<key>Headers/SUNNetworkTool.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x6di/cF6qS6OlTP01KTV3CVOHKo=
-			</data>
-			<key>hash2</key>
-			<data>
-			TXTPGJBo/69T2RtCU1T2vTD+LlDqHI8ZU57sQNw/AZ0=
 			</data>
 		</dict>
 		<key>Headers/SunDebugs.h</key>
