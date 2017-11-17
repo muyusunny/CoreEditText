@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   #  s.ios.deployment_target = "8.0"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
-
+    s.vendored_frameworks = 'universal/CoreEditText.framework'
     s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
