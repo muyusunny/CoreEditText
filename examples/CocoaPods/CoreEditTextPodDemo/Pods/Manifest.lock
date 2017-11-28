@@ -1,0 +1,12 @@
+PODS:
+  - CoreEditText (1.5.2)
+
+DEPENDENCIES:
+  - CoreEditText
+
+SPEC CHECKSUMS:
+  CoreEditText: faf100df3f2f0677d4cc9f4756a9a3d02a20362c
+
+PODFILE CHECKSUM: 37fa41b62ca8f84dbb394718da8a2ddb72d71b1d
+
+COCOAPODS: 1.4.0.beta.2

@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4B54A8B1FCD8BF90079FA9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A8A1FCD8BF90079FA9A /* AppDelegate.m */; };
+		A4B54A8E1FCD8BF90079FA9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A8D1FCD8BF90079FA9A /* ViewController.m */; };
+		A4B54A911FCD8BFA0079FA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A8F1FCD8BFA0079FA9A /* Main.storyboard */; };
+		A4B54A941FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A921FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodeld */; };
+		A4B54A961FCD8BFA0079FA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A951FCD8BFA0079FA9A /* Assets.xcassets */; };
+		A4B54A991FCD8BFA0079FA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A971FCD8BFA0079FA9A /* LaunchScreen.storyboard */; };
+		A4B54A9C1FCD8BFA0079FA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A9B1FCD8BFA0079FA9A /* main.m */; };
+		DA3E76698DF91185C6549CEF /* libPods-CoreEditTextPodDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611219E9A9B15F4B8A4585A /* libPods-CoreEditTextPodDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D0093789A1DDC8C7B409E0D /* Pods-CoreEditTextPodDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreEditTextPodDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoreEditTextPodDemo/Pods-CoreEditTextPodDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6611219E9A9B15F4B8A4585A /* libPods-CoreEditTextPodDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoreEditTextPodDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F60D4FB3605F7B8284C212 /* Pods-CoreEditTextPodDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoreEditTextPodDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoreEditTextPodDemo/Pods-CoreEditTextPodDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A4B54A861FCD8BF90079FA9A /* CoreEditTextPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreEditTextPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B54A891FCD8BF90079FA9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4B54A8A1FCD8BF90079FA9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4B54A8C1FCD8BF90079FA9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4B54A8D1FCD8BF90079FA9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4B54A901FCD8BFA0079FA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4B54A931FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreEditTextPodDemo.xcdatamodel; sourceTree = "<group>"; };
+		A4B54A951FCD8BFA0079FA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B54A981FCD8BFA0079FA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4B54A9A1FCD8BFA0079FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B54A9B1FCD8BFA0079FA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4B54AA21FCD8CDC0079FA9A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B54A831FCD8BF90079FA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3E76698DF91185C6549CEF /* libPods-CoreEditTextPodDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2F1D56BD78743D70BCDF47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F60D4FB3605F7B8284C212 /* Pods-CoreEditTextPodDemo.debug.xcconfig */,
+				0D0093789A1DDC8C7B409E0D /* Pods-CoreEditTextPodDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4B54A7D1FCD8BF90079FA9A = {
+			isa = PBXGroup;
+			children = (
+				A4B54A881FCD8BF90079FA9A /* CoreEditTextPodDemo */,
+				A4B54A871FCD8BF90079FA9A /* Products */,
+				1B2F1D56BD78743D70BCDF47 /* Pods */,
+				A4F8E15D17E28238A899CD9D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B54A871FCD8BF90079FA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B54A861FCD8BF90079FA9A /* CoreEditTextPodDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B54A881FCD8BF90079FA9A /* CoreEditTextPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4B54A891FCD8BF90079FA9A /* AppDelegate.h */,
+				A4B54A8A1FCD8BF90079FA9A /* AppDelegate.m */,
+				A4B54A8C1FCD8BF90079FA9A /* ViewController.h */,
+				A4B54A8D1FCD8BF90079FA9A /* ViewController.m */,
+				A4B54A8F1FCD8BFA0079FA9A /* Main.storyboard */,
+				A4B54A951FCD8BFA0079FA9A /* Assets.xcassets */,
+				A4B54A971FCD8BFA0079FA9A /* LaunchScreen.storyboard */,
+				A4B54A9A1FCD8BFA0079FA9A /* Info.plist */,
+				A4B54A9B1FCD8BFA0079FA9A /* main.m */,
+				A4B54A921FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodeld */,
+				A4B54AA21FCD8CDC0079FA9A /* PrefixHeader.pch */,
+			);
+			path = CoreEditTextPodDemo;
+			sourceTree = "<group>";
+		};
+		A4F8E15D17E28238A899CD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6611219E9A9B15F4B8A4585A /* libPods-CoreEditTextPodDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B54A851FCD8BF90079FA9A /* CoreEditTextPodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B54A9F1FCD8BFA0079FA9A /* Build configuration list for PBXNativeTarget "CoreEditTextPodDemo" */;
+			buildPhases = (
+				A9BFF3CF5A494574CEB9CE28 /* [CP] Check Pods Manifest.lock */,
+				A4B54A821FCD8BF90079FA9A /* Sources */,
+				A4B54A831FCD8BF90079FA9A /* Frameworks */,
+				A4B54A841FCD8BF90079FA9A /* Resources */,
+				AF4CE4FB2B72464337B0D418 /* [CP] Embed Pods Frameworks */,
+				19FC7CCA8E9EC056906DD7A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreEditTextPodDemo;
+			productName = CoreEditTextPodDemo;
+			productReference = A4B54A861FCD8BF90079FA9A /* CoreEditTextPodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B54A7E1FCD8BF90079FA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = irunthink;
+				TargetAttributes = {
+					A4B54A851FCD8BF90079FA9A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4B54A811FCD8BF90079FA9A /* Build configuration list for PBXProject "CoreEditTextPodDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B54A7D1FCD8BF90079FA9A;
+			productRefGroup = A4B54A871FCD8BF90079FA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B54A851FCD8BF90079FA9A /* CoreEditTextPodDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B54A841FCD8BF90079FA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B54A991FCD8BFA0079FA9A /* LaunchScreen.storyboard in Resources */,
+				A4B54A961FCD8BFA0079FA9A /* Assets.xcassets in Resources */,
+				A4B54A911FCD8BFA0079FA9A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19FC7CCA8E9EC056906DD7A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreEditTextPodDemo/Pods-CoreEditTextPodDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BFF3CF5A494574CEB9CE28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoreEditTextPodDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4CE4FB2B72464337B0D418 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CoreEditTextPodDemo/Pods-CoreEditTextPodDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B54A821FCD8BF90079FA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B54A8E1FCD8BF90079FA9A /* ViewController.m in Sources */,
+				A4B54A941FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodeld in Sources */,
+				A4B54A9C1FCD8BFA0079FA9A /* main.m in Sources */,
+				A4B54A8B1FCD8BF90079FA9A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4B54A8F1FCD8BFA0079FA9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B54A901FCD8BFA0079FA9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4B54A971FCD8BFA0079FA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B54A981FCD8BFA0079FA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B54A9D1FCD8BFA0079FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4B54A9E1FCD8BFA0079FA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4B54AA01FCD8BFA0079FA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F60D4FB3605F7B8284C212 /* Pods-CoreEditTextPodDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreEditTextPodDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CoreEditTextPodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4B54AA11FCD8BFA0079FA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0093789A1DDC8C7B409E0D /* Pods-CoreEditTextPodDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CoreEditTextPodDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = CoreEditTextPodDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B54A811FCD8BF90079FA9A /* Build configuration list for PBXProject "CoreEditTextPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B54A9D1FCD8BFA0079FA9A /* Debug */,
+				A4B54A9E1FCD8BFA0079FA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B54A9F1FCD8BFA0079FA9A /* Build configuration list for PBXNativeTarget "CoreEditTextPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B54AA01FCD8BFA0079FA9A /* Debug */,
+				A4B54AA11FCD8BFA0079FA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4B54A921FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4B54A931FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodel */,
+			);
+			currentVersion = A4B54A931FCD8BFA0079FA9A /* CoreEditTextPodDemo.xcdatamodel */;
+			path = CoreEditTextPodDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4B54A7E1FCD8BF90079FA9A /* Project object */;
+}
