@@ -162,8 +162,8 @@ SUNBAsyncMainQueueDelay(5,^{
 
 ```
 
-## Demo ##
-1、文件夹examples下normal/CoreEditTextDemo为正常下载使用的Demo
+# Demo
+1、文件夹examples下normal/CoreEditTextDemo为正常下载使用的Demo<br>
 2、CocoaPods/CoreEditTextPodDemo下的为使用pod方式导入的Demo，大家可以参考使用。如果有问题可以添加QQ群讨论。
 
 
