@@ -1,5 +1,5 @@
 # CoreEditText
-[github地址](https://github.com/woai673714805/CoreEditText)：https://github.com/woai673714805/CoreEditText
+[github地址](https://github.com/muyusunny/CoreEditText)：https://github.com/muyusunny/CoreEditText
 
 iOS开发工具类，包含常用功能，为方便使用，特为常用功能封装并且使用宏定义方式运用。
 
