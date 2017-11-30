@@ -134,7 +134,7 @@ NSLog (@"*********************************************************\n");
 ```
 NSArray *wordArr = [NSArray arrayWithObjects:@"你好",@"我的",@"程序",@"北京", nil];
 for (int i = 0; i < wordArr.count; i++) {
-    NSLog(@"%@的拼音是：%@",[wordArr objectAtIndex:i],[SUNGetPinYinFormString([wordArr objectAtIndex:i])]);
+    NSLog(@"%@的拼音是：%@",[wordArr objectAtIndex:i],SUNGetPinYinFormString([wordArr objectAtIndex:i]));
 
 }
 
