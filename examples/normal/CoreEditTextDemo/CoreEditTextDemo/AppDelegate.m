@@ -19,7 +19,10 @@
     使用中，还请打开工具类的头文件，多看一下，多对比下demo使用。
     开发交流/问题反馈 QQ群：221762069 
     申请添加群时，请备注：iOS工具类讨论
-    iOS开发讨论发言：https://www.irunthink.com/forum-92-1.html    
+    iOS开发讨论发言：https://www.irunthink.com/forum-92-1.html
+
+    注意：使用时记得在项目的Build Settings中Other linker Flags中添加：-ObjC
+
     */
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

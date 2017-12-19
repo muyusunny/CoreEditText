@@ -14,7 +14,7 @@
 		A4B54A6C1FCD630B0079FA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A6B1FCD630B0079FA9A /* Assets.xcassets */; };
 		A4B54A6F1FCD630B0079FA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A6D1FCD630B0079FA9A /* LaunchScreen.storyboard */; };
 		A4B54A721FCD630B0079FA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A711FCD630B0079FA9A /* main.m */; };
-		A4B54A7C1FCD66B20079FA9A /* CoreEditText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4B54A7B1FCD66B20079FA9A /* CoreEditText.framework */; };
+		A4F6025E1FE8D97300DF940F /* CoreEditText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6025D1FE8D97300DF940F /* CoreEditText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		A4B54A701FCD630B0079FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B54A711FCD630B0079FA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4B54A7A1FCD63A30079FA9A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A4B54A7B1FCD66B20079FA9A /* CoreEditText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreEditText.framework; sourceTree = "<group>"; };
+		A4F6025D1FE8D97300DF940F /* CoreEditText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreEditText.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4B54A7C1FCD66B20079FA9A /* CoreEditText.framework in Frameworks */,
+				A4F6025E1FE8D97300DF940F /* CoreEditText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 		A4B54A5E1FCD630B0079FA9A /* CoreEditTextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A4B54A7B1FCD66B20079FA9A /* CoreEditText.framework */,
+				A4F6025D1FE8D97300DF940F /* CoreEditText.framework */,
 				A4B54A5F1FCD630B0079FA9A /* AppDelegate.h */,
 				A4B54A601FCD630B0079FA9A /* AppDelegate.m */,
 				A4B54A621FCD630B0079FA9A /* ViewController.h */,
@@ -295,6 +295,7 @@
 				INFOPLIST_FILE = CoreEditTextDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,6 +313,7 @@
 				INFOPLIST_FILE = CoreEditTextDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
