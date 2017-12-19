@@ -185,6 +185,9 @@ iOS开发工具类，包含常用功能，为方便使用，特为常用功能�
  1. 直接下载文件使用
  
  使用简单快捷，仅需要把【CoreEditText.framework】库文件拖入项目中，在项目pch文件中引入即可。<br>
+ 注意：此方式使用时记得在项目的Build Settings中Other linker Flags中添加：-ObjC
+ 
+ 
  
  2. pod安装使用
 
