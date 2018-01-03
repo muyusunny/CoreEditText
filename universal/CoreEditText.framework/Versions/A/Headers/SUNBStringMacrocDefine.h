@@ -264,6 +264,15 @@
  */
 #define SUNNumberHaveRounding(Number) [SUNBStringUitil notRounding:Number afterPoint:2]
 
+/*!
+ *  @brief iOS数据解析精度问题解决，目标位数保留小数点后N位数
+ *
+ *  @param Number 需要格式化的数据
+ *
+ *  @return 具体返回的有效小数点数
+ */
+#define SUNNumberHaveRoundingToN(Number,N) [SUNBStringUitil notRounding:Number afterPoint:N]
+
 /**
  一键把汉字转换为汉语拼音
 

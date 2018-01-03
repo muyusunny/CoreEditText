@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CoreEditText"
-  s.version      = "1.5.2"
+  s.version      = "1.6"
   s.summary      = "iOS开发常用工具类汇总，包含各种常用功能"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/muyusunny/CoreEditText.git", :tag => "1.5.2" }
+  s.source       = { :git => "https://github.com/muyusunny/CoreEditText.git", :tag => "1.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

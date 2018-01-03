@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A487CF821FFD01390055B58B /* CoreEditText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A487CF811FFD01390055B58B /* CoreEditText.framework */; };
 		A4B54A611FCD630B0079FA9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A601FCD630B0079FA9A /* AppDelegate.m */; };
 		A4B54A641FCD630B0079FA9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A631FCD630B0079FA9A /* ViewController.m */; };
 		A4B54A671FCD630B0079FA9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A651FCD630B0079FA9A /* Main.storyboard */; };
@@ -14,10 +15,10 @@
 		A4B54A6C1FCD630B0079FA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A6B1FCD630B0079FA9A /* Assets.xcassets */; };
 		A4B54A6F1FCD630B0079FA9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B54A6D1FCD630B0079FA9A /* LaunchScreen.storyboard */; };
 		A4B54A721FCD630B0079FA9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B54A711FCD630B0079FA9A /* main.m */; };
-		A4F6025E1FE8D97300DF940F /* CoreEditText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F6025D1FE8D97300DF940F /* CoreEditText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A487CF811FFD01390055B58B /* CoreEditText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreEditText.framework; sourceTree = "<group>"; };
 		A4B54A5C1FCD630B0079FA9A /* CoreEditTextDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreEditTextDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B54A5F1FCD630B0079FA9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4B54A601FCD630B0079FA9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +31,6 @@
 		A4B54A701FCD630B0079FA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4B54A711FCD630B0079FA9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A4B54A7A1FCD63A30079FA9A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A4F6025D1FE8D97300DF940F /* CoreEditText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreEditText.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,18 +38,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F6025E1FE8D97300DF940F /* CoreEditText.framework in Frameworks */,
+				A487CF821FFD01390055B58B /* CoreEditText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A476FA081FFD000C0096FD25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4B54A531FCD630A0079FA9A = {
 			isa = PBXGroup;
 			children = (
 				A4B54A5E1FCD630B0079FA9A /* CoreEditTextDemo */,
 				A4B54A5D1FCD630B0079FA9A /* Products */,
+				A476FA081FFD000C0096FD25 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +72,7 @@
 		A4B54A5E1FCD630B0079FA9A /* CoreEditTextDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A4F6025D1FE8D97300DF940F /* CoreEditText.framework */,
+				A487CF811FFD01390055B58B /* CoreEditText.framework */,
 				A4B54A5F1FCD630B0079FA9A /* AppDelegate.h */,
 				A4B54A601FCD630B0079FA9A /* AppDelegate.m */,
 				A4B54A621FCD630B0079FA9A /* ViewController.h */,
@@ -295,6 +303,7 @@
 				INFOPLIST_FILE = CoreEditTextDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,6 +322,7 @@
 				INFOPLIST_FILE = CoreEditTextDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.irunthink.CoreEditTextDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

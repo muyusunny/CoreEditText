@@ -10,6 +10,8 @@
 
 @interface AppDelegate ()
 
+@property (nonatomic) NSUncaughtExceptionHandler *uncaughtExceptionHandler;
+
 @end
 
 @implementation AppDelegate
@@ -32,6 +34,12 @@
      *  输出最基本的系统信息
      */
     LogSystemAppInfo;
+
+    //异常处理
+    self.uncaughtExceptionHandler = NSGetUncaughtExceptionHandler();
+    NSSetUncaughtExceptionHandler(&UncaughtExceptionHandler);
+
+    NSLog(@"App使用过程中Bugs记录数组：%@",KBugsFileListArray);
 
     /**
      *  手机基本信息
@@ -69,6 +77,8 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    //程序进入后台时暂停收集bugs
+    PauseSaveSunBugs;
 }
 
 
@@ -79,6 +89,8 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    //进入程序时开始收集bugs
+    StartSaveSunBugs;
 }
 
 
