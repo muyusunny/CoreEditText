@@ -280,9 +280,15 @@ SUNBAsyncMainQueueDelay(5,^{
 ----------
 
 
+# 更新日志 #
+* 2018.06.13 修复类库已知bug，修复类库引入项目可能报错的问题。
+
+----------
+
+
 # 开发者交流/问题反馈
 
 开发交流/问题反馈 QQ群：221762069 <br>
 申请添加群时，请备注：iOS工具类讨论
 
-iOS开发讨论发言：https://www.irunthink.com/forum-92-1.html
+iOS开发讨论发言：[https://www.irunthink.com/forum-92-1.html](https://www.irunthink.com/forum-92-1.html)
