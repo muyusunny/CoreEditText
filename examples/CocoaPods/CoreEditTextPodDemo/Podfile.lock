@@ -1,12 +1,16 @@
 PODS:
-  - CoreEditText (1.6)
+  - CoreEditText (1.7.1)
 
 DEPENDENCIES:
   - CoreEditText
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CoreEditText
+
 SPEC CHECKSUMS:
-  CoreEditText: d38fd864b24a76c7a982ea8a52a753019810a5a2
+  CoreEditText: 2a6518f61bad4f20d69a0f9a51f279f242d239c6
 
 PODFILE CHECKSUM: 37fa41b62ca8f84dbb394718da8a2ddb72d71b1d
 
-COCOAPODS: 1.4.0.rc.1
+COCOAPODS: 1.5.3
